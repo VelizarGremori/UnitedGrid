@@ -1,0 +1,112 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using UnitedGrid.Models
+@using UnitedGrid.Models.Chat
+@using UnitedGrid.ViewModels
+
+@model List<ChatListItemViewModel>
+
+@{
+    var search = ViewBag.Search as string;
+    var searchResults = ViewBag.SearchResults as List<IdentityUser>;
+}
+
+<h2>Чаты</h2>
+
+<!-- Поиск пользователей-->
+<div style="position: relative; max-width: 400px; margin-bottom: 1rem;">
+    <input type="text" id="userSearchInput" placeholder="Поиск пользователей..."
+           autocomplete="off" style="width: 100%; padding: 8px;" />
+
+    <ul id="userSearchResults" style="
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        background: white;
+        border: 1px solid #ccc;
+        width: 100%;
+        z-index: 10;
+        display: none;
+    "></ul>
+</div>
+
+<!-- Список всех чатов -->
+<ul>
+    @foreach (var chat in Model)
+    {
+        var url = Url.Action("Chat", "Chat", new { type = chat.Type, id = chat.Id });
+
+        <li>
+            <a href="@url">@chat.Name</a>
+            @if (chat.Type == ChatType.Group)
+            {
+                <span style="color: gray; font-size: smaller;">(группа)</span>
+            }
+        </li>
+    }
+</ul>
+
+<hr />
+
+<!-- Создание новой группы -->
+<h3>Создать новую группу</h3>
+
+<form asp-controller="Group" asp-action="Create" method="post">
+    <input type="text" name="name" placeholder="Название группы" required />
+    <button type="submit">Создать</button>
+</form>
+
+@section Scripts {
+    <script>
+        const input = document.getElementById("userSearchInput");
+        const results = document.getElementById("userSearchResults");
+
+        let timeout;
+
+        input.addEventListener("input", function () {
+            const query = this.value;
+
+            clearTimeout(timeout);
+
+            if (!query.trim()) {
+                results.style.display = "none";
+                results.innerHTML = "";
+                return;
+            }
+
+            timeout = setTimeout(() => {
+                fetch(`/Chat/SearchUsers?query=${encodeURIComponent(query)}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.length === 0) {
+                            results.style.display = "none";
+                            results.innerHTML = "";
+                            return;
+                        }
+
+                        results.innerHTML = "";
+                        data.forEach(user => {
+                            const li = document.createElement("li");
+                            li.innerHTML = user.name;
+                            li.style.padding = "6px 10px";
+                            li.style.cursor = "pointer";
+
+                            li.addEventListener("click", () => {
+                                window.location.href = `/Chat/Chat?type=Private&id=${user.id}`;
+                            });
+
+                            results.appendChild(li);
+                        });
+
+                        results.style.display = "block";
+                    });
+            }, 300);
+        });
+
+        document.addEventListener("click", function (e) {
+            if (!input.contains(e.target) && !results.contains(e.target)) {
+                results.style.display = "none";
+            }
+        });
+    </script>
+}

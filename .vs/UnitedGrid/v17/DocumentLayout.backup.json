@@ -1,0 +1,428 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\services\\background\\unreadnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:services\\background\\unreadnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\viewmodels\\messageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:viewmodels\\messageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\viewmodels\\chatlistitemviewmodel..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:viewmodels\\chatlistitemviewmodel..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\services\\smtpnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:services\\smtpnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\services\\presenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:services\\presenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\services\\compositenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:services\\compositenotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\services\\interfaces\\ipresenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:services\\interfaces\\ipresenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:services\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\messageread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\messageread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\chattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\chattype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\basemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\basemessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\groups\\groupmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\groups\\groupmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\groups\\groupuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\groups\\groupuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\models\\chat\\groups\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:models\\chat\\groups\\group.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\data\\userextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:data\\userextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\data\\providers\\nameidentifieruseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:data\\providers\\nameidentifieruseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|c:\\users\\veliz\\source\\repos\\velizargremori\\unitedgrid\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED9B5AE2-33EA-419C-A41E-25383363BF7C}|UnitedGrid.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:21:44.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MessageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\ViewModels\\MessageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MessageViewModel.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\ViewModels\\MessageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MessageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:20:59.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:20:51.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChatListItemViewModel..cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\ViewModels\\ChatListItemViewModel..cs",
+              "RelativeDocumentMoniker": "ViewModels\\ChatListItemViewModel..cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\ViewModels\\ChatListItemViewModel..cs",
+              "RelativeToolTip": "ViewModels\\ChatListItemViewModel..cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:20:33.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SmtpNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\SmtpNotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\SmtpNotificationService.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\SmtpNotificationService.cs",
+              "RelativeToolTip": "Services\\SmtpNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:20:22.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PresenceService.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\PresenceService.cs",
+              "RelativeDocumentMoniker": "Services\\PresenceService.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\PresenceService.cs",
+              "RelativeToolTip": "Services\\PresenceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:20:08.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompositeNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\CompositeNotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\CompositeNotificationService.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\CompositeNotificationService.cs",
+              "RelativeToolTip": "Services\\CompositeNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:19:51.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPresenceService.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\Interfaces\\IPresenceService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IPresenceService.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\Interfaces\\IPresenceService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IPresenceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:19:40.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\INotificationService.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:19:05.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnreadNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\Background\\UnreadNotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\Background\\UnreadNotificationService.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Services\\Background\\UnreadNotificationService.cs",
+              "RelativeToolTip": "Services\\Background\\UnreadNotificationService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:18:46.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessageRead.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\MessageRead.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\MessageRead.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\MessageRead.cs",
+              "RelativeToolTip": "Models\\Chat\\MessageRead.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:18:23.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\Message.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Message.cs",
+              "RelativeToolTip": "Models\\Chat\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:18:06.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChatType.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\ChatType.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\ChatType.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\ChatType.cs",
+              "RelativeToolTip": "Models\\Chat\\ChatType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:17:28.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseMessage.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\BaseMessage.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\BaseMessage.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\BaseMessage.cs",
+              "RelativeToolTip": "Models\\Chat\\BaseMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:17:15.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GroupUser.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Groups\\GroupUser.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\Groups\\GroupUser.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Groups\\GroupUser.cs",
+              "RelativeToolTip": "Models\\Chat\\Groups\\GroupUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:16:57.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Group.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Groups\\Group.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\Groups\\Group.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Groups\\Group.cs",
+              "RelativeToolTip": "Models\\Chat\\Groups\\Group.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:16:35.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GroupMessage.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Groups\\GroupMessage.cs",
+              "RelativeDocumentMoniker": "Models\\Chat\\Groups\\GroupMessage.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Models\\Chat\\Groups\\GroupMessage.cs",
+              "RelativeToolTip": "Models\\Chat\\Groups\\GroupMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:16:35.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "Controllers\\GroupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:15:25.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:15:11.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:15:20.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Data\\UserExtentions.cs",
+              "RelativeDocumentMoniker": "Data\\UserExtentions.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Data\\UserExtentions.cs",
+              "RelativeToolTip": "Data\\UserExtentions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:14:43.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:14:22.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NameIdentifierUserIdProvider.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Data\\Providers\\NameIdentifierUserIdProvider.cs",
+              "RelativeDocumentMoniker": "Data\\Providers\\NameIdentifierUserIdProvider.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Data\\Providers\\NameIdentifierUserIdProvider.cs",
+              "RelativeToolTip": "Data\\Providers\\NameIdentifierUserIdProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:13:48.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\veliz\\source\\repos\\VelizarGremori\\UnitedGrid\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T09:13:17.089Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

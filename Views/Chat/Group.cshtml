@@ -1,0 +1,71 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using UnitedGrid.Data
+@using UnitedGrid.Models
+@using UnitedGrid.Models.Chat
+@using UnitedGrid.Models.Chat.Groups
+@model List<GroupMessage>
+
+@{
+    var group = (Group)ViewBag.Group;
+    var currentUser = User.Identity?.Name;
+    ViewData["Title"] = $"Группа: {group.Name}";
+}
+
+<h2>Группа: @group.Name</h2>
+
+<input type="hidden" id="groupId" value="@group.Id" />
+
+<div style="border:1px solid #ccc; max-height:400px; overflow-y:auto; padding: 1rem;">
+    <ul id="messagesList">
+        @foreach (var msg in Model)
+        {
+            <li>
+                <strong>@msg.Sender?.GetDisplayName():</strong> @msg.Text
+                <span style="color:gray;">@msg.SentAt.ToLocalTime().ToString("HH:mm")</span>
+            </li>
+        }
+    </ul>
+</div>
+
+<div style="margin-top: 1rem;">
+    <input type="text" id="messageInput" placeholder="Введите сообщение" style="width: 80%;" />
+    <button onclick="sendMessage()">Отправить</button>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        const groupId = document.getElementById("groupId").value;
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatHub")
+            .build();
+
+        connection.on("ReceiveGroupMessage", function (user, text) {
+            const li = document.createElement("li");
+            const time = new Date().toLocaleTimeString();
+            li.innerHTML = `<strong>${user}:</strong> ${text} <span style="color:gray;">(${time})</span>`;
+            document.getElementById("messagesList").appendChild(li);
+        });
+
+        connection.start()
+            .then(() => {
+                connection.invoke("JoinGroup", groupId);
+            })
+            .catch(err => console.error(err.toString()));
+
+        function sendMessage() {
+            const text = document.getElementById("messageInput").value;
+            if (!text.trim()) return;
+
+            connection.invoke("SendGroupMessage", groupId, text)
+                .then(() => document.getElementById("messageInput").value = "")
+                .catch(err => console.error(err.toString()));
+        }
+
+        document.getElementById("messageInput").addEventListener("keyup", function (e) {
+            if (e.key === "Enter") sendMessage();
+        });
+    </script>
+}

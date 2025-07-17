@@ -1,0 +1,172 @@
+﻿@using UnitedGrid.Models.Chat
+@using UnitedGrid.ViewModels
+@model List<MessageViewModel>
+
+@{
+    var title = (string)ViewBag.ChatTitle;
+    var type = (ChatType)ViewBag.ChatType;
+    var id = (string)ViewBag.ChatId;
+}
+
+<h2>@title</h2>
+
+<input type="hidden" id="chatType" value="@type" />
+<input type="hidden" id="chatId" value="@id" />
+
+@if (@type == ChatType.Group)
+{
+    <div style="position: relative; max-width: 400px; margin-bottom: 1rem;">
+        <input type="text" id="userSearchInput" placeholder="Поиск пользователей..."
+               autocomplete="off" style="width: 100%; padding: 8px;" />
+
+        <ul id="userSearchResults" style="
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            background: white;
+            border: 1px solid #ccc;
+            width: 100%;
+            z-index: 10;
+            display: none;
+        "></ul>
+    </div>
+}
+
+<div style="border:1px solid #ccc; max-height:400px; overflow-y:auto; padding:1rem;">
+    <ul id="messagesList">
+        @foreach (var m in Model)
+        {
+            <li>
+                <strong>@m.SenderName:</strong> @m.Text
+                <span style="color:gray;">@m.SentAt.ToLocalTime().ToString("HH:mm")</span>
+                @if (@m.IsRead)
+                {
+                    <div class="read-indicator">✔</div>
+                }
+            </li>
+        }
+    </ul>
+</div>
+
+<div style="margin-top: 1rem;">
+    <input type="text" id="messageInput" placeholder="Введите сообщение" style="width: 80%;" />
+    <button onclick="sendMessage()">Отправить</button>
+</div>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.5/signalr.min.js"></script>
+
+    <script>
+        const chatId = document.getElementById("chatId").value;
+    </script>
+
+    <script>
+        const chatType = document.getElementById("chatType").value;
+
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/chatHub")
+            .build();
+
+        function appendMessage(user, text) {
+            const li = document.createElement("li");
+            const time = new Date().toLocaleTimeString();
+            li.innerHTML = `<strong>${user}:</strong> ${text} <span style="color:gray;">(${time})</span>`;
+            document.getElementById("messagesList").appendChild(li);
+        }
+
+        connection.on("ReceivePrivateMessage", appendMessage);
+        connection.on("ReceiveGroupMessage", appendMessage);
+
+        connection.start()
+            .then(() => {
+                if (chatType === "Group") {
+                    connection.invoke("JoinGroup", chatId);
+                }
+            })
+            .catch(err => console.error(err.toString()));
+
+        function sendMessage() {
+            const text = document.getElementById("messageInput").value;
+            if (!text.trim()) return;
+
+            const method = chatType === "Group"
+                ? "SendGroupMessage"
+                : "SendPrivateMessage";
+
+            connection.invoke(method, chatId, text)
+                .then(() => document.getElementById("messageInput").value = "")
+                .catch(err => console.error(err.toString()));
+        }
+
+        document.getElementById("messageInput").addEventListener("keyup", function (e) {
+            if (e.key === "Enter") sendMessage();
+        });
+    </script>
+
+    <script>
+        const input = document.getElementById("userSearchInput");
+        const results = document.getElementById("userSearchResults");
+
+        let timeout;
+
+        input.addEventListener("input", function () {
+            const query = this.value;
+
+            clearTimeout(timeout);
+
+            if (!query.trim()) {
+                results.style.display = "none";
+                results.innerHTML = "";
+                return;
+            }
+
+
+            timeout = setTimeout(() => {
+                fetch(`/Group/SearchUsers?query=${encodeURIComponent(query)}&groupId=${chatId}`)
+                    .then(res => res.json())
+                    .then(data => {
+                        if (data.length === 0) {
+                            results.style.display = "none";
+                            results.innerHTML = "";
+                            return;
+                        }
+
+                        results.innerHTML = "";
+                        data.forEach(user => {
+                            const li = document.createElement("li");
+                            li.innerHTML = user.name;
+                            li.style.padding = "6px 10px";
+                            li.style.cursor = "pointer";
+
+                            li.addEventListener("click", () => {
+                                fetch(`/Group/AddUser?groupId=${chatId}&userId=${user.id}`, {
+                                    method: 'POST',
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                    }
+                                })
+                                    .then(res => {
+                                        if (res.ok) {
+                                            alert('Пользователь добавлен!');
+                                        } else {
+                                            alert('Ошибка при добавлении пользователя');
+                                        }
+                                    });
+                                });
+
+                            results.appendChild(li);
+                        });
+
+                        results.style.display = "block";
+                    });
+            }, 300);
+        });
+
+        document.addEventListener("click", function (e) {
+            if (!input.contains(e.target) && !results.contains(e.target)) {
+                results.style.display = "none";
+            }
+        });
+    </script>
+}

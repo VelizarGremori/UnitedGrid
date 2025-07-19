@@ -140,11 +140,16 @@
                             li.style.cursor = "pointer";
 
                             li.addEventListener("click", () => {
-                                fetch(`/Group/AddUser?groupId=${chatId}&userId=${user.id}`, {
+                                fetch(`/Group/AddUser`, {
                                     method: 'POST',
                                     headers: {
                                         'Content-Type': 'application/json',
-                                    }
+                                    },
+                                    body: JSON.stringify( {
+                                        GroupId : chatId,
+                                        UserId : user.id
+                                    })
+
                                 })
                                     .then(res => {
                                         if (res.ok) {

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using UnitedGrid.Data;
 using UnitedGrid.Models.Chat;
 using UnitedGrid.Models.Chat.Groups;
+using UnitedGrid.Models.Requests;
 
 [Authorize]
 public class GroupController : Controller
@@ -88,16 +89,15 @@ public class GroupController : Controller
     }
 
     [HttpPost]
-    //TODO лень уже делать реквест, когда сделаю поправить в Chat.cshtml вызов fetch('/Group/AddUser?...
-    public async Task<IActionResult> AddUser(string groupId, string userId)
+    public async Task<IActionResult> AddUser([FromBody]GroupAddUserRequest groupAddUser)
     {
-        if (string.IsNullOrWhiteSpace(userId) || !long.TryParse(groupId, out var id))
+        if (string.IsNullOrWhiteSpace(groupAddUser.UserId) || !long.TryParse(groupAddUser.GroupId, out var id))
             return BadRequest();
 
         var groupUser = new GroupUser
         {
             GroupId = id,
-            UserId = userId
+            UserId = groupAddUser.UserId
         };
         
         _db.GroupUsers.Add(groupUser);
